@@ -19,7 +19,7 @@ var config = {
     title: 'Taksim Bahçesi / Taksim Garden',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027'
     chapters: [
         {
             id: '1',
@@ -29,7 +29,7 @@ var config = {
             image: '',
             description: '',
             location: {
-                center: [28.98697724173976,41.03969788839058],
+                center: [28.98734946030132,41.039739271925015],
                 zoom: 14,
                 pitch: 40,
                 bearing: 6
@@ -59,8 +59,8 @@ var config = {
             image: 'https://i.ibb.co/6cmKgw7j/1.png',
             description: '',
             location: {
-                center: [28.98697724173976,41.03969788839058],
-                zoom: 15,
+                center: [28.98734946030132,41.039739271925015],
+                zoom: 17,
                 pitch: 35,
                 bearing: 0
             },
@@ -89,13 +89,13 @@ var config = {
             image: 'https://i.ibb.co/gxq8m8T/2.png',
             description: '',
             location: {
-                center: [28.98697724173976,41.03969788839058],
+                center: [28.985848426478825,41.03989735595207],
                 zoom: 17,
-                pitch: 25,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
